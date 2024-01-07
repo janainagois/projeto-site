@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flor de Linho</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <img src="imagens/logo.png" alt="Flor de Linho">
+    
+        
 </head>
 <body>
+  <header>
+    <div class="img-container">
+      <img src="imagens/Ativo 2.png" alt="Flor de Linho" height="200" width="250">
+  </div>
+  </header>
    <main>
     <header>
-        <h1>Produtos Flor de Linho</h1>
+        <div class="centralizado">
+            <h1 style="font-size: 30px;">Produtos Flor de Linho</h1>
+        </div>
     </header>
     <article>
         <h2>Óleos prensados a frio</h2>
+
         <p>Produzimos óleos prensados a frio. Temos óleo de Linhaça Dourada, Gergelim, Castanha do Pará, Girassol e Gergelim Torrado</p>
+       
+        <div class="slideshow-container">
+  
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="imagens/Imagem do WhatsApp de 2023-10-27 à(s) 18.03.33_4924211f.jpg" style="width:30%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="imagens/Imagem do WhatsApp de 2023-10-27 à(s) 18.03.38_905bb621.jpg" style="width:30%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="imagens/oleocastanhadopara.jpg" style="width:30%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="imagens/oleogergelimtorrado.jpg" style="width:30%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="imagens/oleogirassol.jpg" style="width:30%">
+            </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+              
+         
+
+
     </article>
     <article>
         <h2>Manteigas vegetais</h2>
-        <p>Também produzimos manteigas vegetais de cupuaçu e cacau prensadas a frio!</p>
+        <p>Também produzimos manteigas vegetais de cupuaçu e cacau!</p>
+        <img src="imagens/manteigacupuacu.jpg" id="manteiga">
     </article>
-   </main> 
+   </main>
+   <script type="text/javascript" src="functions.js"></script>
+ <footer>
+  <p style="text-align: center;">Clique no botão do WhatsApp abaixo para mais informações</p>
+  <a aria-label="Catálogo do WhatsApp" href="https://wa.me/c/557398352000">
+    <img alt="Catálogo do WhatsApp" src="imagens/whatsapp1.png" id="botao_zap">
+  </a>
+ </footer>  
 </body>
 </html>
